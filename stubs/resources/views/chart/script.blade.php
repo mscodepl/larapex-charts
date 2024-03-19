@@ -16,7 +16,7 @@
         },
         plotOptions: {
             bar: {
-                borderRadius: 10,
+                borderRadius: 5,
                 horizontal:false
             }
         },
