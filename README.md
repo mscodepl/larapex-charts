@@ -21,7 +21,7 @@ A Laravel wrapper for apex charts library Check the documentation on: [Larapex C
 Use composer.
 
 ```bash
-composer require arielmejiadev/larapex-charts
+composer require mscodepl/larapex-charts
 ```
 
 ## Usage
