@@ -30,6 +30,9 @@
             text: '{!! $chart->subtitle() !!}',
             align: '{!! $chart->subtitlePosition() !!}'
         },
+        tooltip: {
+            enabled: false,
+        },
         xaxis: {
             categories: {!! $chart->xAxis() !!}
         },
