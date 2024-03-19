@@ -15,7 +15,10 @@
             @endif
         },
         plotOptions: {
-            bar: {!! $chart->horizontal() !!}
+            bar: {
+                borderRadius: 10,
+                horizontal:false
+            }
         },
         colors: {!! $chart->colors() !!},
         series: {!! $chart->dataset() !!},
